@@ -1,0 +1,761 @@
+[
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1966",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1966"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1966-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1966-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1966"
+      },
+      {
+        "@language": "en",
+        "@value": "1966"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1967",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1967"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1967-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1967-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1967"
+      },
+      {
+        "@language": "it",
+        "@value": "1967"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1964",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1964"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1964-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1964-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1964"
+      },
+      {
+        "@language": "it",
+        "@value": "1964"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1965",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1965"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1965-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1965-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1965"
+      },
+      {
+        "@language": "it",
+        "@value": "1965"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1962",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1962"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1962-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1962-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1962"
+      },
+      {
+        "@language": "it",
+        "@value": "1962"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1963",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1963"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1963-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1963-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1963"
+      },
+      {
+        "@language": "en",
+        "@value": "1963"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1960",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1960"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1960-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1960-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1960"
+      },
+      {
+        "@language": "en",
+        "@value": "1960"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1961",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1961"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1961-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1961-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1961"
+      },
+      {
+        "@language": "en",
+        "@value": "1961"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1968",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1968"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1968-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1968-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1968"
+      },
+      {
+        "@language": "en",
+        "@value": "1968"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1969",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1969"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1969-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1969-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1969"
+      },
+      {
+        "@language": "it",
+        "@value": "1969"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1973",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1973"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1973-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1973-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1973"
+      },
+      {
+        "@language": "en",
+        "@value": "1973"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1958",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1958"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1958-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1958-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1958"
+      },
+      {
+        "@language": "en",
+        "@value": "1958"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1971",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1971"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1971-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1971-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1971"
+      },
+      {
+        "@language": "en",
+        "@value": "1971"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1970",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1970"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1970-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1970-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1970"
+      },
+      {
+        "@language": "en",
+        "@value": "1970"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1959",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1959"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1959-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1959-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1959"
+      },
+      {
+        "@language": "it",
+        "@value": "1959"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1972",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1972"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1972-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1972-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1972"
+      },
+      {
+        "@language": "en",
+        "@value": "1972"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1975",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1975"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1975-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1975-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1975"
+      },
+      {
+        "@language": "en",
+        "@value": "1975"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1974",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1974"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1974-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1974-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1974"
+      },
+      {
+        "@language": "en",
+        "@value": "1974"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1976",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1976"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1976-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1976-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1976"
+      },
+      {
+        "@language": "it",
+        "@value": "1976"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1957",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1957"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1957-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1957-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1957"
+      },
+      {
+        "@language": "en",
+        "@value": "1957"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1956",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1956"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1956-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1956-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "1956"
+      },
+      {
+        "@language": "it",
+        "@value": "1956"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1955",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1955"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1955-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1955-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1955"
+      },
+      {
+        "@language": "en",
+        "@value": "1955"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/time-span/1954",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/P52_Time-Span"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/time-span/1954"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1954-12-31T23:59:59+01:00"
+      }
+    ],
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "1954-01-01T00:00:00+01:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "1954"
+      },
+      {
+        "@language": "en",
+        "@value": "1954"
+      }
+    ]
+  }
+]

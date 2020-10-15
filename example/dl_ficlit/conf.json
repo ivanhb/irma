@@ -1,0 +1,53 @@
+{
+  "key_identity": "GXcCjZm5RAPi1THZgrW3BBMIWFMJkb97",
+  "key_credential": "zDPuS0Q04wMusERac70ssovZHhd3iJ0f",
+  "omeka_api_url": "https://dl.ficlit.unibo.it/api",
+  "custom_vocabularies": {
+      "Gender":{
+        "id":1
+      },
+      "Religion":{
+        "id":3
+      }
+  },
+  "item_set":{
+    "Raimondi(sample)":{"id":12980}
+  },
+  "tables":[
+    {
+      "id": "tables_family_1",
+      "files": ["fr-a-quaderni_1_E19PhysicalObject.jsonld(sample).tsv"],
+      "header": {"LABEL_HEADER(dcterms:identifier)":null, "LABEL_HEADER(crm:P46i_forms_part_of)":null, "LABEL_HEADER(crm:P104_is_subject_to)":null, "LABEL_HEADER(crm:P128_carries)":null, "LABEL_HEADER(crm:P2_has_type)":null, "LABEL_HEADER(crm:P3_has_note)":null, "LABEL_HEADER(crm:P43_has_dimension)":null, "LABEL_HEADER(crm:P55_has_current_location)":null, "LABEL_HEADER(rdfs:label)":null},
+      "resource_template":"E19PhysicalObject",
+      "resource_class":"crm:E19_Physical_Object",
+      "item_set":"Raimondi(sample)",
+      "item_id": null,
+      "create": {
+        "crm:P46i_forms_part_of":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P46i_forms_part_of)", "type":"uri"}],
+        "crm:P104_is_subject_to":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P104_is_subject_to)", "type":"uri"}],
+        "crm:P2_has_type":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P2_has_type)", "type":"uri" }],
+        "crm:P3_has_note":[{ "@value": "op:clean_name-->LABEL_HEADER(crm:P3_has_note)", "type":"literal", "@language":"it"}],
+        "crm:P43_has_dimension":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P43_has_dimension)", "type":"uri" }],
+        "crm:P55_has_current_location":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P55_has_current_location)", "type":"uri" }],
+        "rdfs:label":[{ "@value": "op:clean_name-->LABEL_HEADER(rdfs:label)", "type":"literal", "@language":"it"}]
+      },
+      "update": {
+        "crm:P128_carries": {"subject_column": "op:clean_name-->LABEL_HEADER(crm:P128_carries)", "object_table": "fr-a-quaderni_1_F2Expression.jsonld(sample).tsv", "object_column": "op:clean_name-->TABLE_HEADER(@id)"}
+      }
+    },
+    {
+      "id": "tables_family_2",
+      "files": ["fr-a-quaderni_1_F2Expression.jsonld(sample).tsv"],
+      "header": {"TABLE_HEADER(@id)":null, "TABLE_HEADER(@value)": null},
+      "resource_template":"F2Expression",
+      "resource_class":"frbroo:F2_Expression",
+      "item_set":"Raimondi(sample)",
+      "item_id": null,
+      "create": {
+        "rdfs:label":[{ "@value": "op:clean_name-->TABLE_HEADER(@id)", "type":"literal", "@language":"it"}],
+        "bf:preferredCitation":[{ "@value": "op:clean_name-->TABLE_HEADER(@citation)", "type":"literal", "@language":"it"}],
+        "crm:P3_has_note":[{ "@value": "op:clean_name-->TABLE_HEADER(@value)", "type":"literal", "@language":"it"}]
+      }
+    }
+  ]
+}

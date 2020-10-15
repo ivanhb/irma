@@ -1,0 +1,278 @@
+[
+  {
+    "@id": "https://w3id.org/ficlitdl/archival-unit/file",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/archival-unit/file"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Fascicolo"
+      },
+      {
+        "@language": "en",
+        "@value": "File"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/file"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/inventory-number",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/inventory-number"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "numero di inventario"
+      },
+      {
+        "@language": "en",
+        "@value": "inventory number"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/shelfmark",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/shelfmark"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "collocazione"
+      },
+      {
+        "@language": "en",
+        "@value": "shelfmark"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/archival-unit/series",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/archival-unit/series"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Serie"
+      },
+      {
+        "@language": "en",
+        "@value": "Series"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/series"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/archival-unit/fonds",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/archival-unit/fonds"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Fondo"
+      },
+      {
+        "@language": "en",
+        "@value": "Fonds"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://lod.xdams.org/reload/oad/levelOfDescription/fonds"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/documentary-form-type/article",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/documentary-form-type/article"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "articolo"
+      },
+      {
+        "@language": "en",
+        "@value": "article"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300048715"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/technique/handwriting",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/technique/handwriting"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "manoscritto (scrittura a mano)"
+      },
+      {
+        "@language": "en",
+        "@value": "manuscript (handwriting)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300252927"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/technique/typewriting",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/technique/typewriting"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dattiloscritto (scrittura a macchina)"
+      },
+      {
+        "@language": "en",
+        "@value": "typescript (typewriting)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300247929"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/documentary-form-type/notebook",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/documentary-form-type/notebook"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "quaderno"
+      },
+      {
+        "@language": "en",
+        "@value": "notebook"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#relatedMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300027200"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/carrier-form-type/composition-paper",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/carrier-form-type/composition-paper"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "foglio protocollo"
+      },
+      {
+        "@language": "en",
+        "@value": "composition paper"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300014179"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ficlitdl/carrier-form-type/notebook",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/carrier-form-type/notebook"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "quaderno"
+      },
+      {
+        "@language": "en",
+        "@value": "notebook"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "http://vocab.getty.edu/aat/300264354"
+      }
+    ]
+  }
+]

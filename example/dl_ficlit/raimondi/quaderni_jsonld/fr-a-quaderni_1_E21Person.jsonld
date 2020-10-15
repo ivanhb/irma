@@ -1,0 +1,966 @@
+[
+  {
+    "@id": "https://w3id.org/ficlitdl/person/giuseppe_raimondi",
+    "@type": [
+      "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@id": "https://w3id.org/ficlitdl/person/giuseppe_raimondi"
+      }
+    ],
+    "http://purl.org/spar/pro/holdsRoleInTime": [
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq67/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq181/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq292/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq124/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq272/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq147/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq282/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq266/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq271/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq2/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq215/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq211/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq297/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq58/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq156/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq23/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq177/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq278/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq109/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq33/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq77/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq176/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq85/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq3/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq213/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq43/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq238/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq150/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq239/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq205/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq237/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq82/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq41/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq206/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq231/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq245/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq11/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq35/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq254/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq203/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq189/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq143/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq5/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq152/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq187/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq64/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq54/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq17/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq39/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq214/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq277/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq127/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq90/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq107/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq30/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq73/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq115/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq223/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq117/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq269/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq283/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq191/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq92/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq291/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq158/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq100/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq242/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq38/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq44/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq173/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq57/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq79/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq295/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq48/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq255/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq274/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq240/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq47/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq75/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq114/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq70/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq280/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq113/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq178/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq241/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq93/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq233/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq157/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq246/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq281/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq51/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq287/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq103/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq180/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq52/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq260/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq69/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq80/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq294/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq140/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq15/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq224/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq227/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq276/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq123/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq8/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq153/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq83/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq166/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq21/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq289/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq307/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq151/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq250/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq60/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq193/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq201/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq296/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq244/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq267/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq13/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq235/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq161/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq248/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq95/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq1/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq129/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq304/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq42/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq68/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq188/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq264/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq285/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq220/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq212/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq130/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq228/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq167/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq119/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq218/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq74/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq195/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq163/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq175/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq247/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq14/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq7/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq89/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq116/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq138/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq222/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq257/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq171/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq9/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq168/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq111/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq12/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq135/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq97/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq252/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq146/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq198/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq63/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq160/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq20/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq192/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq91/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq34/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq162/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq53/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq155/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq18/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq125/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq253/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq62/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq134/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq236/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq122/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq308/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq290/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq37/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq50/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq65/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq144/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq159/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq22/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq56/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq81/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq306/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq196/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq219/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq300/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq174/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq225/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq204/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq88/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq94/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq259/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq208/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq71/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq261/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq217/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq26/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq120/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq76/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq183/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq104/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq154/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq55/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq10/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq216/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq112/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq275/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq31/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq72/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq108/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq299/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq202/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq59/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq16/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq263/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq262/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq27/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq106/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq226/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq86/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq298/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq249/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq251/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq170/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq142/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq36/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq4/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq194/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq126/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq256/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq84/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq46/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq270/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq199/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq19/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq286/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq40/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq186/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq98/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq128/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq268/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq149/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq49/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq209/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq234/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq265/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq273/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq145/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq102/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq118/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq29/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq221/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq6/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq303/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq99/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq137/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq229/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq25/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq148/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq32/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq78/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq210/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq87/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq96/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq197/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq24/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq288/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq105/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq182/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq184/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq164/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq141/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq165/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq136/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq301/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq190/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq232/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq133/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq169/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq293/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq200/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq279/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq258/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq139/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq45/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq179/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq101/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq185/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq302/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq305/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq61/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq110/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq284/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq131/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq132/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq230/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq172/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq243/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq207/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq66/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq28/author"
+      },
+      {
+        "@id": "https://w3id.org/ficlitdl/giuseppe-raimondi-fonds/notebook/rdq121/author"
+      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P3_has_note": [
+      {
+        "@language": "it",
+        "@value": "Giuseppe Raimondi (Bologna, 18 luglio 1898 – Bologna, 1985) è stato uno scrittore italiano."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Giuseppe Raimondi (Bologna, 1898-1985)"
+      },
+      {
+        "@language": "it",
+        "@value": "Giuseppe Raimondi (Bologna, 1898-1985)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://viaf.org/viaf/7457679"
+      },
+      {
+        "@id": "https://www.worldcat.org/identities/lccn-n79021749"
+      },
+      {
+        "@id": "https://www.wikidata.org/wiki/Q3771293"
+      }
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "key_identity": "GXcCjZm5RAPi1THZgrW3BBMIWFMJkb97",
+  "key_credential": "zDPuS0Q04wMusERac70ssovZHhd3iJ0f",
+  "omeka_api_url": "https://dl.ficlit.unibo.it/api",
+
+  //The vocabularies created from the 'Custom Vocabs' module of OmekaS
+  "vocabularies": {
+      "Gender":{
+        "id":1
+      },
+      "Religion":{
+        "id":3
+      }
+  },
+
+  "prefix":{
+    "http://www.cidoc-crm.org/cidoc-crm/":"crm",
+    "http://purl.org/ontology/bibo/":"bibo",
+    "http://id.loc.gov/ontologies/bibframe/":"bf",
+    "http://purl.org/dc/terms/":"dcterms",
+    "http://purl.org/dc/dcmitype/":"dctype",
+    "http://iflastandards.info/ns/fr/frbr/frbroo/":"frbroo",
+    "http://xmlns.com/foaf/0.1/":"foaf",
+    "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#":"seq",
+    "http://www.w3.org/2002/07/owl#":"owl",
+    "http://purl.org/spar/pro/":"pro",
+    "http://www.w3.org/2000/01/rdf-schema#":"rdfs",
+    "http://www.w3.org/2004/02/skos/core#":"skos",
+    "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl":"ti",
+    "http://www.wikidata.org/":"wd"
+  },
+
+  //In case Omeka have some item sets hidden (private), add them here
+  "item_set":{
+  },
+
+  //all the tables and their corresponding templates
+  "tables":[
+    {
+      "id": <ID-1>,
+      "files": [],
+
+      //A table template which defines:
+      //1) <default>: the header and corresponding values in case a new row is inserted
+      //2) resource_template,
+      //3) resource_class
+      //4) item_set
+      //5) the lookup rules to check
+      "default": {"LABEL_HEADER(dcterms:identifier)":null, "LABEL_HEADER(crm:P46i_forms_part_of)":null, "LABEL_HEADER(crm:P104_is_subject_to)":null, "LABEL_HEADER(crm:P128_carries)":null, "LABEL_HEADER(crm:P2_has_type)":null, "LABEL_HEADER(crm:P3_has_note)":null, "LABEL_HEADER(crm:P43_has_dimension)":null, "LABEL_HEADER(crm:P55_has_current_location)":null, "LABEL_HEADER(rdfs:label)":null},
+      "resource_template":"E19PhysicalObject",
+      "resource_class":"crm:E19_Physical_Object",
+      "item_set":"Raimondi(sample)",
+
+      //The property to use as identifier for the items of this resource_template
+      //In case this value is null the script will automatically generate an identifier
+      // -> in such case the identifier is equal to: <table_name>::row<number> and
+      "item_id": "dcterms:identifier",
+
+      //Here we use the Resource Template Name and define the mapping rules to apply on each operation: create, update
+      "create": {
+        "dcterms:identifier":[{ "@id": "op:clean_name-->LABEL_HEADER(dcterms:identifier)", "type":"uri"}],
+        "crm:P46i_forms_part_of":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P46i_forms_part_of)", "type":"uri"}],
+        "crm:P104_is_subject_to":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P104_is_subject_to)", "type":"uri"}],
+        "crm:P128_carries":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P128_carries)", "type":"uri"}],
+        "crm:P2_has_type":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P2_has_type)", "type":"uri" }],
+        "crm:P3_has_note":[{ "@value": "op:clean_name-->LABEL_HEADER(crm:P3_has_note)", "type":"literal", "@language":"it"}],
+        "crm:P43_has_dimension":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P43_has_dimension)", "type":"uri" }],
+        "crm:P55_has_current_location":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P55_has_current_location)", "type":"uri" }],
+        "rdfs:label":[{ "@value": "op:clean_name-->LABEL_HEADER(rdfs:label)", "type":"literal", "@language":"it"}]
+      },
+      "lookup": {
+        "op:clean_name-->Mother": {"resource_template": "E19PhysicalObject", "att_check":"dcterms:identifier", "table":"<ID-1>", "row_values":{"LABEL_HEADER(dcterms:identifier)":"Mother"}}
+      },
+      "update": {}
+    }
+  ]
+}
