@@ -123,10 +123,10 @@ if __name__ == "__main__":
                 # files_list = [...,(<file_title>,<file_path>,<file_json_block>),...]
                 for f_num, a_file_tupla in enumerate(item["files"]):
                     files = {
-                        "file":(a_file_tupla[0], open(a_file_tupla[1], 'rb'),'multipart/form-data')
+                        "file[0]": (a_file_tupla[0], open(a_file_tupla[1], 'rb'))
                     }
                     file_data = {'data': json.dumps(a_file_tupla[2])}
-                    response = REQ_SESSION.post('{}/files'.format(args_conf["omeka_api_url"]), params=params, data=file_data, files=files, verify=False)
+                    response = REQ_SESSION.post('{}/media'.format(args_conf["omeka_api_url"]), params=params, data=file_data, files=files, verify=False)
                     if str(response) != "<Response [200]>":
                         print(response.content)
                         print("--> ERROR: couldn't add file number:"+str(f_num+1))
@@ -149,6 +149,5 @@ if __name__ == "__main__":
         print("1) Mapping the media files with their corresponding Omeka Items...",flush=True)
         print("-> read the tables",flush=True)
         media_data = m.read_tables(args.tables, args_conf, "media")
-        print(media_data)
         update_media(media_data, True)
         print("Step-1 Done \n")
