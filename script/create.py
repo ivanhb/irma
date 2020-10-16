@@ -134,3 +134,8 @@ def generate_row_id(row, table_args, args_conf):
         object = "@value" if "@value" in a_part.keys() else "@id"
         res_list.append(a_part[object])
     return (table_args["item_id"],object,res_list)
+
+def init_created_items_index():
+    #init also the created_items.json index
+    with open(c.ITEMS_INDEX,"w") as items_index_file:
+        items_index_file.write(json.dumps([]))

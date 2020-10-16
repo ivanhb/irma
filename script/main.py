@@ -7,6 +7,7 @@ import script.util as util
 import script.create as create
 import script.lookup as lookup
 import script.update as update
+import script.media as media
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -76,9 +77,7 @@ def get_indexes(api_url,lookup = ['resource_classes','properties','resource_temp
         d=open(f_name,'w')
         d.write(json.dumps(elems_dict))
         d.close()
-    #init also the created_items.json index
-    with open(c.ITEMS_INDEX,"w") as items_index_file:
-        items_index_file.write(json.dumps([]))
+
     return res
 
 # Backup all the items
@@ -95,6 +94,17 @@ def backup_items(d, api_url=None, online=False):
         items_index_file.write(json.dumps(d))
     items_index_file.close()
 
+# Backup all the items
+def backup_files(d, api_url=None, online=False):
+    #in case there is other items then append the given items (i.e. <d>) to the current items
+    if os.path.exists(c.FILES_INDEX):
+        with open(c.FILES_INDEX,"r") as created_items_file:
+            created_items = json.load(created_items_file)
+            d = d + created_items
+    #print all to the file
+    with open(c.FILES_INDEX,"w") as items_index_file:
+        items_index_file.write(json.dumps(d))
+    items_index_file.close()
 
 # Read all the tables (in TSV format) inside a specified directory (i.e. <tables_path>) and apply an operation (i.e. <operation>).
 # this methods needs also the configurations (i.e. <args_conf>) provided by the user
@@ -118,6 +128,7 @@ def read_tables(tables_path, args_conf, operation="create"):
                 for row in reader:
                     row["INTERNAL:ROWID"] = str(filename)+"::"+str(row_num)
                     if operation == 'create' and 'create' in table_args:
+                        create.init_created_items_index()
                         o_item = create.create_item(row, args_conf, table_args["create"], item_set, resource_class, resource_template)
                         list_items.append(o_item)
 
@@ -132,6 +143,14 @@ def read_tables(tables_path, args_conf, operation="create"):
                         updated_item = update.update_item(row, table_args, args_conf, tables_path, table_args["update"])
                         if updated_item != None:
                             list_items.append(updated_item)
+
+                    if operation == 'media' and 'media' in table_args:
+                        media.init_created_files_index()
+                        tab_list_index = table_args['files'].index(filename)
+                        # Check if the script should handle the media files
+                        item_media = media.import_media(row, row_num, args_conf, table_args, tables_path + table_args['media'][tab_list_index])
+                        if item_media != None:
+                            list_items.append(item_media)
 
                     row_num += 1
 

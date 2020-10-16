@@ -13,6 +13,7 @@ INDEXES = {
 # The path of each file saved locally
 INDEX_DATA_PATH = "data/.index/"
 ITEMS_INDEX = INDEX_DATA_PATH + "created_items.json"
+FILES_INDEX = INDEX_DATA_PATH + "created_files.json"
 RESOURCE_TEMPLATES_INDEX = INDEX_DATA_PATH + "resource_templates_index.json"
 RESOURCE_CLASSES_INDEX = INDEX_DATA_PATH + "resource_classes_index.json"
 ITEM_SETS_INDEX = INDEX_DATA_PATH + "item_sets_index.json"

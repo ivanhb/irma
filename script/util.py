@@ -1,5 +1,6 @@
 import os , json , csv ,re, requests
 import script.preprocessing as preprocessing
+import script.conf as c
 
 def replace_value(val,data_row):
     if '-->' in val:
@@ -43,4 +44,14 @@ def get_table_conf_by_file(args_conf, filename):
     for a_tab in args_conf["tables"]:
         if filename in a_tab["files"]:
             return a_tab
+    return None
+
+def find_item_from_row_id(row_id):
+    with open(c.ITEMS_INDEX,"r") as items_index_file:
+        all_items = json.load(items_index_file)
+        for item in all_items:
+            for v_id in row_id[2]:
+                for a_part in item[row_id[0]]:
+                    if(a_part[row_id[1]] == v_id):
+                        return (item["o:id"],item)
     return None

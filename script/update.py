@@ -13,7 +13,7 @@ from collections import defaultdict, Counter
 def update_item(row, table_args, args_conf, tables_path, update_rules):
 
     subject_row_id = create.generate_row_id(row, table_args, args_conf)
-    subject_omeka_item = find_item_from_row_id(subject_row_id)
+    subject_omeka_item = util.find_item_from_row_id(subject_row_id)
     if subject_omeka_item == None:
         return None
 
@@ -41,16 +41,6 @@ def build_relation_json(subject_omeka_item, object_omeka_item, subject_prop, arg
         "property_label": subject_prop["label"]
     }
 
-def find_item_from_row_id(row_id):
-    with open(c.ITEMS_INDEX,"r") as items_index_file:
-        all_items = json.load(items_index_file)
-        for item in all_items:
-            for v_id in row_id[2]:
-                for a_part in item[row_id[0]]:
-                    if(a_part[row_id[1]] == v_id):
-                        return (item["o:id"],item)
-    return None
-
 def check_object_table(args_conf, tables_path, object_table, object_column, subject_values):
     with open(str(tables_path)+str(object_table)) as tsv_file:
         reader = csv.DictReader(tsv_file, delimiter='\t')
@@ -63,6 +53,6 @@ def check_object_table(args_conf, tables_path, object_table, object_column, subj
                     object_table_args = util.get_table_conf_by_file(args_conf, object_table)
                     row["INTERNAL:ROWID"] = str(object_table)+"::"+str(row_num)
                     object_row_id = create.generate_row_id(row, object_table_args, args_conf)
-                    return find_item_from_row_id(object_row_id)
+                    return util.find_item_from_row_id(object_row_id)
             row_num += 1
     return None
