@@ -1,0 +1,31 @@
+E55Type_id	permalink	label_it	label_en	same_as	close_match	related_match
+https://w3id.org/ficlitdl/documentary-form-type/postcard	https://w3id.org/ficlitdl/documentary-form-type/postcard	cartolina	postcard		http://vocab.getty.edu/aat/300026816	
+https://w3id.org/ficlitdl/archival-unit/series	https://w3id.org/ficlitdl/archival-unit/series	serie	series	http://lod.xdams.org/reload/oad/levelOfDescription/series		
+https://w3id.org/ficlitdl/carrier-type/note	https://w3id.org/ficlitdl/carrier-type/note	biglietto	note		http://vocab.getty.edu/aat/300027200	
+https://w3id.org/ficlitdl/documentary-form-type/typescript	https://w3id.org/ficlitdl/documentary-form-type/typescript	dattiloscritto	typescript		file:///Users/fgiovannetti/Workspace/ficlitdl/revision_GR/output_rdf/ http://vocab.getty.edu/aat/300028577	
+https://w3id.org/ficlitdl/carrier-type/invitation	https://w3id.org/ficlitdl/carrier-type/invitation	invito	invitation		http://vocab.getty.edu/300027083	
+https://w3id.org/ficlitdl/title-type/proper	https://w3id.org/ficlitdl/title-type/proper	titolo proprio	title proper			
+https://w3id.org/ficlitdl/technique/handwriting	https://w3id.org/ficlitdl/technique/handwriting	manoscritto (scrittura a mano)	manuscript (handwriting)			http://vocab.getty.edu/aat/300252927
+https://w3id.org/ficlitdl/carrier-type/newspaper-clipping	https://w3id.org/ficlitdl/carrier-type/newspaper-clipping	ritaglio di giornale	newspaper clipping		http://vocab.getty.edu/page/300429554	
+https://w3id.org/ficlitdl/title-type/attributed	https://w3id.org/ficlitdl/title-type/attributed	titolo attribuito	attributed title			
+https://w3id.org/ficlitdl/archival-unit/fonds	https://w3id.org/ficlitdl/archival-unit/fonds	fondo	fonds	http://lod.xdams.org/reload/oad/levelOfDescription/fonds		
+https://w3id.org/ficlitdl/documentary-form-type/invitation	https://w3id.org/ficlitdl/documentary-form-type/invitation	invito	invitation		http://vocab.getty.edu/300027083	
+https://w3id.org/ficlitdl/carrier-type/postcard	https://w3id.org/ficlitdl/carrier-type/postcard	cartolina	postcard		http://vocab.getty.edu/aat/300026816	
+https://w3id.org/ficlitdl/inventory-number	https://w3id.org/ficlitdl/inventory-number	numero di inventario	inventory number			
+https://w3id.org/ficlitdl/carrier-type/funeral-card	https://w3id.org/ficlitdl/carrier-type/funeral-card	ricordo funebre	funeral card		http://vocab.getty.edu/aat/300026812	
+https://w3id.org/ficlitdl/documentary-form-type/funeral-card	https://w3id.org/ficlitdl/documentary-form-type/funeral-card	ricordo funebre	funeral card		http://vocab.getty.edu/aat/300026812	
+https://w3id.org/ficlitdl/shelfmark	https://w3id.org/ficlitdl/shelfmark	collocazione	shelfmark			
+https://w3id.org/ficlitdl/carrier-type/notebook	https://w3id.org/ficlitdl/carrier-type/notebook	quaderno	notebook		http://vocab.getty.edu/aat/300264354	
+https://w3id.org/ficlitdl/documentary-form-type/notebook	https://w3id.org/ficlitdl/documentary-form-type/notebook	quaderno	notebook			http://vocab.getty.edu/aat/300027200
+https://w3id.org/ficlitdl/carrier-type/telegram	https://w3id.org/ficlitdl/carrier-type/telegram	telegramma	telegram		http://vocab.getty.edu/aat/300026909	
+https://w3id.org/ficlitdl/technique/typewriting	https://w3id.org/ficlitdl/technique/typewriting	dattiloscritto (scrittura a macchina)	typescript (typewriting)			http://vocab.getty.edu/aat/300247929
+https://w3id.org/ficlitdl/carrier-type/typescript	https://w3id.org/ficlitdl/carrier-type/typescript	dattiloscritto	typescript		file:///Users/fgiovannetti/Workspace/ficlitdl/revision_GR/output_rdf/ http://vocab.getty.edu/aat/300028577	
+https://w3id.org/ficlitdl/documentary-form-type/article	https://w3id.org/ficlitdl/documentary-form-type/article	articolo	article		http://vocab.getty.edu/aat/300048715	
+https://w3id.org/ficlitdl/narrative-form-type/short-story	https://w3id.org/ficlitdl/narrative-form-type/short-story	racconto	short story		http://vocab.getty.edu/aat/300202607	
+https://w3id.org/ficlitdl/narrative-form-type/short-story	https://w3id.org/ficlitdl/narrative-form-type/short-story	racconto	short story		http://id.loc.gov/authorities/subjects/sh85121965	
+https://w3id.org/ficlitdl/archival-unit/file	https://w3id.org/ficlitdl/archival-unit/file	fascicolo	file	http://lod.xdams.org/reload/oad/levelOfDescription/file		
+https://w3id.org/ficlitdl/documentary-form-type/letter	https://w3id.org/ficlitdl/documentary-form-type/letter	lettera	letter		http://vocab.getty.edu/aat/300026879	
+https://w3id.org/ficlitdl/documentary-form-type/note	https://w3id.org/ficlitdl/documentary-form-type/note	biglietto	note		http://vocab.getty.edu/aat/300027200	
+https://w3id.org/ficlitdl/documentary-form-type/telegram	https://w3id.org/ficlitdl/documentary-form-type/telegram	telegramma	telegram		http://vocab.getty.edu/aat/300026909	
+https://w3id.org/ficlitdl/carrier-type/composition-paper	https://w3id.org/ficlitdl/carrier-type/composition-paper	foglio protocollo	composition paper		http://vocab.getty.edu/aat/300014179	
+https://w3id.org/ficlitdl/carrier-type/letter	https://w3id.org/ficlitdl/carrier-type/letter	lettera	letter		http://vocab.getty.edu/aat/300026879	

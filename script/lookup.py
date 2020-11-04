@@ -56,8 +56,8 @@ def get_item_id(prop_k, val, items, resource_template_name):
 ## Generate a generic row of a table defined according to a <dest_table_conf>, and update some specific <vals_to_update> of the generated row following the values in <row_data>
 def gen_table_row(args_conf, dest_table_conf, vals_to_update, row_data):
     a_row = {}
-    for k_header in dest_table_conf["header"]:
-        a_row[k_header] = dest_table_conf["header"][k_header]
+    for k_header in dest_table_conf["lookup_row"]:
+        a_row[k_header] = dest_table_conf["lookup_row"][k_header]
         if k_header in vals_to_update:
             a_row[k_header] = row_data[vals_to_update[k_header]]
     return a_row

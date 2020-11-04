@@ -12,24 +12,33 @@ from collections import defaultdict, Counter
 #def update_item(data_row, item_set_id=None, item_type=None, res_class=None, property_ids=None):
 def update_item(row, table_args, args_conf, tables_path, update_rules):
 
+    # re-generates the id of the row and search for it in Omeka
     subject_row_id = create.generate_row_id(row, table_args, args_conf)
     subject_omeka_item = util.find_item_from_row_id(subject_row_id)
     if subject_omeka_item == None:
         return None
 
-    for k,v in update_rules.items():
-        subject_values = util.replace_value(v["subject_column"], row)
-        subject_values = [subject_values] if isinstance(subject_values, str) else subject_values
-        object_omeka_item = check_object_table(args_conf, tables_path, v["object_table"], v["object_column"], subject_values)
-        if object_omeka_item != None:
-            with open(c.PROPERTIES_INDEX,"r") as items_index_file:
-                properties_index = json.load(items_index_file)
-                subject_prop = properties_index[k]
-                res_json = subject_omeka_item[1]
-                res_json[k] = []
-                res_json[k].append(build_relation_json(subject_omeka_item, object_omeka_item, subject_prop, args_conf))
-                return res_json
-    return None
+    # iterate over the upadting rules
+    to_update = False
+    res_json = subject_omeka_item[1]
+    for k,v_list in update_rules.items():
+        inner_list = []
+        for v in v_list:
+            subject_values = util.replace_value(v["subject_column"], row)
+            subject_values = [subject_values] if isinstance(subject_values, str) else subject_values
+
+            #we check the object elem
+            object_omeka_item = check_object_table(args_conf, tables_path, v["object_table"], v["object_column"], subject_values)
+            if object_omeka_item != None:
+                with open(c.PROPERTIES_INDEX,"r") as items_index_file:
+                    properties_index = json.load(items_index_file)
+                    subject_prop = properties_index[k]
+                    if k not in res_json:
+                        res_json[k] = []
+                    res_json[k].append(build_relation_json(subject_omeka_item, object_omeka_item, subject_prop, args_conf))
+                    to_update = True
+
+    return (to_update,res_json)
 
 def build_relation_json(subject_omeka_item, object_omeka_item, subject_prop, args_conf):
     return {

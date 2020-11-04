@@ -29,7 +29,10 @@ if __name__ == "__main__":
     arg_parser = ArgumentParser("run.py", description="Upload into an OmekaS Digital Library a collection of items taken from a .TSV tabular dataset")
     arg_parser.add_argument("-conf", "--configuration", required=True, dest="conf", help="Specify the configuration file (JSON format)")
     arg_parser.add_argument("-tabs", "--tables", dest="tables", required=True, help="Specify the directory containing the tabular datasets (TSV format).\nNote: each file must contain items of the same class.")
-    arg_parser.add_argument("-i", "--items", dest="items", action="store_true", required=False, help="Import the items into OmekaS")
+    #arg_parser.add_argument("-i", "--items", dest="items", action="store_true", required=False, help="Import the items into OmekaS")
+    arg_parser.add_argument("-create", dest="create", action="store_true", required=False, help="Create and import items in OmekaS")
+    arg_parser.add_argument("-lookup", dest="lookup", action="store_true", required=False, help="Lookup for new items to create and import in OmekaS")
+    arg_parser.add_argument("-update", dest="update", action="store_true", required=False, help="Update and link together the items in Omekas")
     arg_parser.add_argument("-m", "--media", dest="media", action="store_true", required=False, help="Import the media files into OmekaS")
     #arg_parser.add_argument("-d", "--def", dest="base_def", default=False, action="store_true", help="Get the 'resource_classes', 'properties', and 'resource_templates'")
 
@@ -47,6 +50,8 @@ if __name__ == "__main__":
         }
 
     def update_omeka(all_data, print_on_file = False):
+        done_uploaded = 0
+        error_uploaded = 0
         data_to_print = []
         if len(all_data)>0:
             for item_num, payload in enumerate(all_data):
@@ -54,10 +59,12 @@ if __name__ == "__main__":
                 if str(response) != "<Response [200]>":
                     print(response.content)
                     print("--> ERROR: couldn't add element number:"+str(item_num + 1))
-                    break
+                    error_uploaded += 1
+                    continue
+                done_uploaded += 1
                 json_data = json.loads(response.content)
                 data_to_print.append(json_data)
-                sys.stdout.write('\r--> %d/%d items uploaded on Omeka' %(item_num + 1,len(all_data)))
+                sys.stdout.write('\r--> %d/%d items uploaded on Omeka (%d errors)' %(done_uploaded,len(all_data),error_uploaded))
                 sys.stdout.flush()
             if print_on_file:
                 #print("--> print on file (i.e. 'created_items.json')")
@@ -82,38 +89,41 @@ if __name__ == "__main__":
     args_conf = m.auto_normalize_conf(args_conf)
     print("Step-0 Done \n")
 
-    if args.items:
+    if args.create or args.lookup or args.update:
         print("\nCreating and Adding a Collection of Items to the Omeka-S Instance\n-----------------------------------------------------------------\n",flush=True)
 
-        ## -------
-        ## PHASE 2) CREATE/ADD items of the table
-        ## -------
-        print("1) Create the new items to add to Omeka ...",flush=True)
-        print("-> read the tables",flush=True)
-        created_data = m.read_tables(args.tables, args_conf, "create")
-        print("-> add [",len(created_data), "] item/s to Omeka",flush=True)
-        update_omeka(created_data, True)
-        print("Step-1 Done \n")
+        # -------
+        # PHASE 2) CREATE/ADD items of the table
+        # -------
+        if args.create:
+            print("1) Create the new items to add to Omeka ...",flush=True)
+            print("-> read the tables",flush=True)
+            created_data = m.read_tables(args.tables, args_conf, "create")
+            print("-> add [",len(created_data), "] item/s to Omeka",flush=True)
+            update_omeka(created_data, True)
+            print("Step-1 Done \n")
 
         ## -------
         ## PHASE 3) LOOKUP
         ## -------
-        print("2) Lookup into other columns of the tables and create/add new items to Omeka ...",flush=True)
-        print("-> read the tables",flush=True)
-        lookup_data = m.read_tables(args.tables, args_conf, "lookup")
-        print("-> add [",len(lookup_data), "] item/s to Omeka",flush=True)
-        update_omeka(lookup_data, True)
-        print("Step-2 Done \n")
+        if args.lookup:
+            print("2) Lookup into other columns of the tables and create/add new items to Omeka ...",flush=True)
+            print("-> read the tables",flush=True)
+            lookup_data = m.read_tables(args.tables, args_conf, "lookup")
+            print("-> add [",len(lookup_data), "] item/s to Omeka",flush=True)
+            update_omeka(lookup_data, True)
+            print("Step-2 Done \n")
 
         ## -------
         ## PHASE 4) Update
         ## -------
-        print("3) Update the items in Omeka by linking them together ...",flush=True)
-        print("-> read the tables",flush=True)
-        updated_data = m.read_tables(args.tables, args_conf, "update")
-        print("-> update [",len(updated_data), "] item/s",flush=True)
-        connect_omeka_items(updated_data)
-        print("Step-3 Done \n")
+        if args.update:
+            print("3) Update the items in Omeka by linking them together ...",flush=True)
+            print("-> read the tables",flush=True)
+            updated_data = m.read_tables(args.tables, args_conf, "update")
+            print("-> update [",len(updated_data), "] item/s",flush=True)
+            connect_omeka_items(updated_data)
+            print("Step-3 Done \n")
 
     def update_media(all_data, print_on_file = False):
         res = defaultdict(list)

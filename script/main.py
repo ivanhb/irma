@@ -114,7 +114,6 @@ def read_tables(tables_path, args_conf, operation="create"):
     for filename in os.listdir(tables_path):
         table_args = util.get_table_conf_by_file(args_conf, filename)
         if filename.endswith(".tsv") and table_args != None:
-
             item_set,resource_class,resource_template = map_to_entity(table_args, args_conf)
             # if it is a lookup operation then make sure this table have this option defined in its configuration
             # OR if this table has no entries move to the next table
@@ -141,8 +140,8 @@ def read_tables(tables_path, args_conf, operation="create"):
 
                     if operation == 'update' and 'update' in table_args:
                         updated_item = update.update_item(row, table_args, args_conf, tables_path, table_args["update"])
-                        if updated_item != None:
-                            list_items.append(updated_item)
+                        if updated_item[0]:
+                            list_items.append(updated_item[1])
 
                     if operation == 'media' and 'media' in table_args:
                         media.init_created_files_index()

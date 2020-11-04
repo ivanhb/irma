@@ -16,39 +16,310 @@
   "tables":[
     {
       "id": "tables_family_1",
-      "files": ["fr-a-quaderni_1_E19PhysicalObject(sample).tsv"],
-      "media": ["media_(fr-a-quaderni_1_E19PhysicalObject(sample).tsv)"],
-      "header": {"LABEL_HEADER(dcterms:identifier)":null, "LABEL_HEADER(crm:P46i_forms_part_of)":null, "LABEL_HEADER(crm:P104_is_subject_to)":null, "LABEL_HEADER(crm:P128_carries)":null, "LABEL_HEADER(crm:P2_has_type)":null, "LABEL_HEADER(crm:P3_has_note)":null, "LABEL_HEADER(crm:P43_has_dimension)":null, "LABEL_HEADER(crm:P55_has_current_location)":null, "LABEL_HEADER(rdfs:label)":null},
+      "files": ["E19PhysicalObject.tsv"],
+      "lookup_row":{},
       "resource_template":"E19PhysicalObject",
       "resource_class":"crm:E19_Physical_Object",
       "item_set":"Raimondi(sample)",
-      "item_id": null,
+      "item_id": "dcterms:identifier",
       "create": {
-        "crm:P46i_forms_part_of":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P46i_forms_part_of)", "type":"uri"}],
-        "crm:P104_is_subject_to":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P104_is_subject_to)", "type":"uri"}],
-        "crm:P2_has_type":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P2_has_type)", "type":"uri" }],
-        "crm:P3_has_note":[{ "@value": "op:clean_name-->LABEL_HEADER(crm:P3_has_note)", "type":"literal", "@language":"it"}],
-        "crm:P43_has_dimension":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P43_has_dimension)", "type":"uri" }],
-        "crm:P55_has_current_location":[{ "@id": "op:clean_name-->LABEL_HEADER(crm:P55_has_current_location)", "type":"uri" }],
-        "rdfs:label":[{ "@value": "op:clean_name-->LABEL_HEADER(rdfs:label)", "type":"literal", "@language":"it"}]
+        "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+        "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+        ],
+        "crm:P2_has_type":[{"@value":"op:clean_name-->type","type":"literal"}]
       },
       "update": {
-        "crm:P128_carries": {"subject_column": "op:clean_name-->LABEL_HEADER(crm:P128_carries)", "object_table": "fr-a-quaderni_1_F2Expression(sample).tsv", "object_column": "op:clean_name-->TABLE_HEADER(@id)"}
+        "crm:P128_carries": [{"subject_column": "op:clean_name-->expression", "object_table": "F2Expression.tsv", "object_column": "op:clean_name-->F2Expression_id"}],
+        "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
+        "crm:P43_has_dimension": [
+          {"subject_column": "op:clean_name-->height", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"},
+          {"subject_column": "op:clean_name-->extent", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"}
+        ],
+        "crm:P1_is_identified_by": [
+          {"subject_column": "op:clean_name-->inventory_number", "object_table":"E42Identifier.tsv", "object_column":"op:clean_name-->E42Identifier_id"},
+          {"subject_column": "op:clean_name-->shelfmark", "object_table":"E42Identifier.tsv", "object_column":"op:clean_name-->E42Identifier_id"}
+        ],
+        "crm:P46i_forms_part_of": [{"subject_column": "op:clean_name-->archival_unit", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
+        "seq:follows": [{"subject_column": "op:clean_name-->preceding_item", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
+        "crm:P52_has_current_owner": [{"subject_column": "op:clean_name-->owner", "object_table":"E40LegalBody.tsv", "object_column":"op:clean_name-->E40LegalBody_id"}],
+        "crm:P50_has_current_keeper": [{"subject_column": "op:clean_name-->keeper", "object_table":"E40LegalBody.tsv", "object_column":"op:clean_name-->E40LegalBody_id"}],
+        "crm:P55_has_current_location": [{"subject_column": "op:clean_name-->location", "object_table":"E53Place.tsv", "object_column":"op:clean_name-->E53Place_id"}],
+        "crm:P104_is_subject_to": [{"subject_column": "op:clean_name-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_id"}]
       }
     },
     {
       "id": "tables_family_2",
-      "files": ["fr-a-quaderni_1_F2Expression(sample).tsv"],
-      "header": {"TABLE_HEADER(@id)":null, "TABLE_HEADER(@value)": null},
+      "files": ["F2Expression.tsv"],
+      "lookup_row":{},
       "resource_template":"F2Expression",
       "resource_class":"frbroo:F2_Expression",
       "item_set":"Raimondi(sample)",
-      "item_id": null,
+      "item_id": "dcterms:identifier",
       "create": {
-        "rdfs:label":[{ "@value": "op:clean_name-->TABLE_HEADER(@id)", "type":"literal", "@language":"it"}],
-        "bf:preferredCitation":[{ "@value": "op:clean_name-->TABLE_HEADER(@citation)", "type":"literal", "@language":"it"}],
-        "crm:P3_has_note":[{ "@value": "op:clean_name-->TABLE_HEADER(@value)", "type":"literal", "@language":"it"}]
+        "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+        "rdfs:label":[
+          {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+          {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+        ],
+        "bf:preferredCitation":[{"@value":"op:clean_name-->cite_as","type":"literal"}],
+        "crm:P72_has_language":[{"@id":"op:clean_name-->language","type":"uri"}]
+      },
+      "update": {
+        "crm:P2_has_type":[{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
+        "crm:P94i_was_created_by":[{"subject_column": "op:clean_name-->creation_event", "object_table":"E65Creation.tsv", "object_column":"op:clean_name-->E65Creation_id"}],
+        "crm:P102_has_title":[{"subject_column": "op:clean_name-->title", "object_table":"E35Title.tsv", "object_column":"op:clean_name-->E35Title_id"}],
+        "crm:P104_is_subject_to":[{"subject_column": "op:clean_name-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_id"}],
+        "crm:P128i_is_carried_by":[{"subject_column": "op:clean_name-->physical_carrier", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}]
       }
+    },
+    {
+      "id": "tables_family_3",
+      "files": ["E21Person.tsv"],
+      "lookup_row":{},
+      "resource_template":"E21Person",
+      "resource_class":"crm:E21_Person",
+      "item_set":"Raimondi(sample)",
+      "item_id": "dcterms:identifier",
+      "create": {
+        "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+        "rdfs:label":[
+          {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+          {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+        ],
+        "owl:sameAs":[
+          {"@id":"op:clean_name-->viaf","type":"uri"},
+          {"@id":"op:clean_name-->worldcat","type":"uri"},
+          {"@id":"op:clean_name-->wikidata","type":"uri"}
+        ]
+      },
+      "update": {
+        "pro:holdsRoleInTime":[
+          {"subject_column": "op:clean_name-->rit_rdq1", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq2", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq3", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq4", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq5", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq6", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq7", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq8", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq9", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq10", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq11", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq12", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq13", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq14", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"},
+          {"subject_column": "op:clean_name-->rit_rdq15", "object_table":"RoleInTime.tsv", "object_column":"op:clean_name-->RoleInTime_id"}
+        ]
+      }
+    },
+    {
+        "id": "tables_family_4",
+        "files": ["E30Right.tsv"],
+        "lookup_row":{},
+        "resource_template":"E30Right",
+        "resource_class":"crm:E30_Right",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ]
+        }
+    },
+    {
+        "id": "tables_family_5",
+        "files": ["E35Title.tsv"],
+        "lookup_row":{},
+        "resource_template":"E35Title",
+        "resource_class":"crm:E35_Title",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ]
+        },
+        "update": {
+          "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}]
+        }
+    },
+    {
+        "id": "tables_family_6",
+        "files": ["E40LegalBody.tsv"],
+        "lookup_row":{},
+        "resource_template":"E40LegalBody",
+        "resource_class":"crm:E40LegalBody",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "owl:sameAs":[
+            {"@id":"op:clean_name-->viaf","type":"uri"},
+            {"@id":"op:clean_name-->wikidata","type":"uri"}
+          ],
+          "foaf:homepage":[{"@id":"op:clean_name-->homepage","type":"uri"}]
+        }
+    },
+    {
+        "id": "tables_family_7",
+        "files": ["E42Identifier.tsv"],
+        "lookup_row":{},
+        "resource_template":"E42Identifier",
+        "resource_class":"crm:E42_Identifier",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ]
+        },
+        "update":{
+          "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}]
+        }
+    },
+    {
+        "id": "tables_family_8",
+        "files": ["E45Address.tsv"],
+        "lookup_row":{},
+        "resource_template":"E45Address",
+        "resource_class":"crm:E45_Address",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ]
+        }
+    },
+    {
+        "id": "tables_family_9",
+        "files": ["E52TimeSpan.tsv"],
+        "lookup_row":{},
+        "resource_template":"E52TimeSpan",
+        "resource_class":"crm:E52_Time-Span",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "ti:hasIntervalStartDate":[{"@value":"op:clean_name-->start_date","type":"xsd:dateTime"}],
+          "ti:hasIntervalEndDate":[{"@value":"op:clean_name-->end_date","type":"xsd:dateTime"}]
+        }
+    },
+    {
+        "id": "tables_family_10",
+        "files": ["E53Place.tsv"],
+        "lookup_row":{},
+        "resource_template":"E53Place",
+        "resource_class":"crm:E53_Place",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "owl:sameAs":[
+            {"@id":"op:clean_name-->geonames","type":"uri"},
+            {"@id":"op:clean_name-->wikidata","type":"uri"}
+          ]
+        }
+    },
+    {
+        "id": "tables_family_11",
+        "files": ["E54Dimension.tsv"],
+        "lookup_row":{},
+        "resource_template":"E54Dimension",
+        "resource_class":"crm:E54_Dimension",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "skos:closeMatch":[{"@id":"op:clean_name-->close_match","type":"uri"}],
+          "skos:relatedMatch":[{"@id":"op:clean_name-->related_match","type":"uri"}]
+        }
+    },
+    {
+        "id": "tables_family_12",
+        "files": ["E55Type.tsv"],
+        "lookup_row":{},
+        "resource_template":"E55Type",
+        "resource_class":"crm:E55_Type",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "owl:sameAs":[{"@id":"op:clean_name-->same_as","type":"uri"}],
+          "skos:closeMatch":[{"@id":"op:clean_name-->close_match","type":"uri"}],
+          "skos:relatedMatch":[{"@id":"op:clean_name-->related_match","type":"uri"}]
+        }
+    },
+    {
+        "id": "tables_family_13",
+        "files": ["E65Creation.tsv"],
+        "lookup_row":{},
+        "resource_template":"E65Creation",
+        "resource_class":"crm:E65_Creation",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ]
+        },
+        "update": {
+          "crm:P32_used_general_technique": [{"subject_column": "op:clean_name-->production_technique", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
+          "crm:P14_carried_out_by": [{"subject_column": "op:clean_name-->agent", "object_table":"E21Person.tsv", "object_column":"op:clean_name-->E21Person_id"}],
+          "crm:P4_has_time-span": [{"subject_column": "op:clean_name-->time_span", "object_table":"E52TimeSpan.tsv", "object_column":"op:clean_name-->E52TimeSpan_id"}]
+        }
+    },
+    {
+        "id": "tables_family_13",
+        "files": ["RoleInTime.tsv"],
+        "lookup_row":{},
+        "resource_template":"RoleInTime",
+        "resource_class":"pro:RoleInTime",
+        "item_set":"Raimondi(sample)",
+        "item_id": "dcterms:identifier",
+        "create": {
+          "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+          "rdfs:label":[
+            {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
+            {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
+          ],
+          "pro:withRole":[{"@id":"op:clean_name-->role","type":"uri"}]
+        },
+        "update": {
+          "pro:relatesToEntity": [{"subject_column": "op:clean_name-->related_expression", "object_table":"F2Expression.tsv", "object_column":"op:clean_name-->F2Expression_id"}]
+        }
     }
   ]
 }
