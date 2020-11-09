@@ -33,7 +33,7 @@ if __name__ == "__main__":
     arg_parser.add_argument("-create", dest="create", action="store_true", required=False, help="Create and import items in OmekaS")
     arg_parser.add_argument("-lookup", dest="lookup", action="store_true", required=False, help="Lookup for new items to create and import in OmekaS")
     arg_parser.add_argument("-update", dest="update", action="store_true", required=False, help="Update and link together the items in Omekas")
-    arg_parser.add_argument("-m", "--media", dest="media", action="store_true", required=False, help="Import the media files into OmekaS")
+    arg_parser.add_argument("-media", dest="media", action="store_true", required=False, help="Import the media files into OmekaS")
     #arg_parser.add_argument("-d", "--def", dest="base_def", default=False, action="store_true", help="Get the 'resource_classes', 'properties', and 'resource_templates'")
 
     args = arg_parser.parse_args()

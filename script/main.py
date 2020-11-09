@@ -153,4 +153,6 @@ def read_tables(tables_path, args_conf, operation="create"):
 
                     row_num += 1
 
+        #print(filename," :",len(list_items))
+
     return list_items
