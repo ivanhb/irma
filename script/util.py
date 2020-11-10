@@ -46,6 +46,12 @@ def get_table_conf_by_file(args_conf, filename):
             return a_tab
     return None
 
+# Get a table family having a <filename> in it
+def get_table_conf_by_resource_template(args_conf, rsc_template):
+    for a_tab in args_conf["tables"]:
+            return a_tab
+    return None
+
 def find_item_from_row_id(row_id):
     with open(c.ITEMS_INDEX,"r") as items_index_file:
         all_items = json.load(items_index_file)

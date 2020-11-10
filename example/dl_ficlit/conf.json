@@ -3,19 +3,12 @@
   "key_credential": "zDPuS0Q04wMusERac70ssovZHhd3iJ0f",
   "omeka_api_url": "https://dl.ficlit.unibo.it/api",
   "custom_vocabularies": {
-      "Gender":{
-        "id":1
-      },
-      "Religion":{
-        "id":3
-      }
   },
   "item_set":{
     "Raimondi(sample)":{"id":12980}
   },
   "tables":[
     {
-      "id": "tables_family_1",
       "files": ["E19PhysicalObject.tsv"],
       "lookup_row":{},
       "resource_template":"E19PhysicalObject",
@@ -50,7 +43,6 @@
       }
     },
     {
-      "id": "tables_family_2",
       "files": ["F2Expression.tsv"],
       "lookup_row":{},
       "resource_template":"F2Expression",
@@ -75,7 +67,6 @@
       }
     },
     {
-      "id": "tables_family_3",
       "files": ["E21Person.tsv"],
       "lookup_row":{},
       "resource_template":"E21Person",
@@ -115,7 +106,6 @@
       }
     },
     {
-        "id": "tables_family_4",
         "files": ["E30Right.tsv"],
         "lookup_row":{},
         "resource_template":"E30Right",
@@ -131,7 +121,6 @@
         }
     },
     {
-        "id": "tables_family_5",
         "files": ["E35Title.tsv"],
         "lookup_row":{},
         "resource_template":"E35Title",
@@ -150,7 +139,6 @@
         }
     },
     {
-        "id": "tables_family_6",
         "files": ["E40LegalBody.tsv"],
         "lookup_row":{},
         "resource_template":"E40LegalBody",
@@ -171,7 +159,6 @@
         }
     },
     {
-        "id": "tables_family_7",
         "files": ["E42Identifier.tsv"],
         "lookup_row":{},
         "resource_template":"E42Identifier",
@@ -190,7 +177,6 @@
         }
     },
     {
-        "id": "tables_family_8",
         "files": ["E45Address.tsv"],
         "lookup_row":{},
         "resource_template":"E45Address",
@@ -206,7 +192,6 @@
         }
     },
     {
-        "id": "tables_family_9",
         "files": ["E52TimeSpan.tsv"],
         "lookup_row":{},
         "resource_template":"E52TimeSpan",
@@ -224,7 +209,6 @@
         }
     },
     {
-        "id": "tables_family_10",
         "files": ["E53Place.tsv"],
         "lookup_row":{},
         "resource_template":"E53Place",
@@ -244,7 +228,6 @@
         }
     },
     {
-        "id": "tables_family_11",
         "files": ["E54Dimension.tsv"],
         "lookup_row":{},
         "resource_template":"E54Dimension",
@@ -262,7 +245,6 @@
         }
     },
     {
-        "id": "tables_family_12",
         "files": ["E55Type.tsv"],
         "lookup_row":{},
         "resource_template":"E55Type",
@@ -281,7 +263,6 @@
         }
     },
     {
-        "id": "tables_family_13",
         "files": ["E65Creation.tsv"],
         "lookup_row":{},
         "resource_template":"E65Creation",
@@ -302,7 +283,6 @@
         }
     },
     {
-        "id": "tables_family_13",
         "files": ["RoleInTime.tsv"],
         "lookup_row":{},
         "resource_template":"RoleInTime",

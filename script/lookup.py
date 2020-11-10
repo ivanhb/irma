@@ -28,7 +28,7 @@ def lookup_item(row, args_conf, lookup_rules, processed_items = []):
             # 3) add it in case item does not exist in <items> and <processed_items>
             if item_id_index == None and item_id_lookup == None:
 
-                dest_table_conf = get_table_conf_by_id(args_conf, v["table"])
+                dest_table_conf = util.get_table_conf_by_resource_template(args_conf, v["resource_template"])
                 new_row = gen_table_row(args_conf, dest_table_conf, v["row_values"], row)
                 dest_item_set, dest_resource_class, dest_resource_template = map_to_entity(dest_table_conf, args_conf)
                 o_item = create_item(new_row, args_conf, dest_item_set, dest_resource_class, dest_resource_template)

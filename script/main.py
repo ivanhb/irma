@@ -11,13 +11,6 @@ import script.media as media
 
 pp = pprint.PrettyPrinter(indent=4)
 
-# Get a table family having a specific <id>
-def get_table_conf_by_id(args_conf, id):
-    for a_tab in args_conf["tables"]:
-        if a_tab["id"] == id:
-            return a_tab
-    return None
-
 # Finds and returns the entries of: res_class, res_template, item_set
 def map_to_entity(entity_index, args_conf):
 
