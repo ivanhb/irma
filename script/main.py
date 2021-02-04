@@ -133,8 +133,9 @@ def read_tables(tables_path, args_conf, operation="create"):
 
                     if operation == 'update' and 'update' in table_args:
                         updated_item = update.update_item(row, table_args, args_conf, tables_path, table_args["update"])
-                        if updated_item[0]:
-                            list_items.append(updated_item[1])
+                        if updated_item != None:
+                            if updated_item[0]:
+                                list_items.append(updated_item[1])
 
                     if operation == 'media' and 'media' in table_args:
                         media.init_created_files_index()

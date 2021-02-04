@@ -18,13 +18,13 @@ def s_strip(stringa):
     stringa = stringa.strip() if stringa != '' else ''
     return stringa
 
-def split_values(stringa):
-    if stringa != '' and stringa is not None and stringa != 'None' and ';' in stringa:
-        values = stringa.split(';')
+def split_values(stringa, str_splitter = " ;; "):
+    if stringa != '' and stringa is not None and stringa != 'None' and str_splitter in stringa:
+        values = stringa.split(str_splitter)
         values = [s_strip(val) for val in values]
         #print("values",values)
         return values
-    elif stringa != '' and stringa is not None and stringa != 'None' and ';' not in stringa:
+    elif stringa != '' and stringa is not None and stringa != 'None' and str_splitter not in stringa:
         return stringa
     else:
         return ''

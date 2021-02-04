@@ -16,30 +16,21 @@
       "item_set":"Raimondi(sample)",
       "item_id": "dcterms:identifier",
       "create": {
-        "dcterms:identifier":[{"@id":"op:clean_name-->permalink","type":"uri"}],
+        "dcterms:identifier":[
+            {"@id":"op:clean_name-->permalink","type":"uri"}
+        ],
         "rdfs:label":[
             {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
             {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
         ],
-        "crm:P3_has_note":[{"@value":"op:clean_name-->archival_note","type":"literal"}]
+        "crm:P3_has_note":[
+            {"@value":"op:clean_name-->archival_note","type":"literal"}
+        ]
       },
       "update": {
-        "crm:P128_carries": [{"subject_column": "op:clean_name-->expression", "object_table": "F2Expression.tsv", "object_column": "op:clean_name-->F2Expression_id"}],
-        "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
         "crm:P43_has_dimension": [
-          {"subject_column": "op:clean_name-->height", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"},
-          {"subject_column": "op:clean_name-->extent", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"}
-        ],
-        "crm:P1_is_identified_by": [
-          {"subject_column": "op:clean_name-->inventory_number", "object_table":"E42Identifier.tsv", "object_column":"op:clean_name-->E42Identifier_id"},
-          {"subject_column": "op:clean_name-->shelfmark", "object_table":"E42Identifier.tsv", "object_column":"op:clean_name-->E42Identifier_id"}
-        ],
-        "crm:P46i_forms_part_of": [{"subject_column": "op:clean_name-->archival_unit", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
-        "seq:follows": [{"subject_column": "op:clean_name-->preceding_item", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
-        "crm:P52_has_current_owner": [{"subject_column": "op:clean_name-->owner", "object_table":"E40LegalBody.tsv", "object_column":"op:clean_name-->E40LegalBody_id"}],
-        "crm:P50_has_current_keeper": [{"subject_column": "op:clean_name-->keeper", "object_table":"E40LegalBody.tsv", "object_column":"op:clean_name-->E40LegalBody_id"}],
-        "crm:P55_has_current_location": [{"subject_column": "op:clean_name-->location", "object_table":"E53Place.tsv", "object_column":"op:clean_name-->E53Place_id"}],
-        "crm:P104_is_subject_to": [{"subject_column": "op:clean_name-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_id"}]
+          {"subject_column": "op:split_values-->dimension", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"}
+        ]
       }
     },
     {

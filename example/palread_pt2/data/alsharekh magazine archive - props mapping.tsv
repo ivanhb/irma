@@ -1,0 +1,29 @@
+alsharekh website	omeka	item
+magazineID		periodical
+magazineName	title	periodical
+magazineOwner	publisher	periodical
+magazineNewDate		periodical
+from_year	from year or date	periodical
+to_year	to year or date	periodical
+magazineType	periodicity	periodical
+magazinesInfo		periodical
+magazine_available_numbers		periodical
+magazine_available_pages		periodical
+magazineCoverURL		periodical
+countryID		periodical
+countryName	country	periodical
+editorInChiefID		periodical
+magazineyearID		periodical
+editorInChiefURL		periodical
+editorInChiefImageURL		periodical
+articleID		article
+articleTitle	title	article
+authorID		article
+authorName	author	article
+issueID		article
+issueDate	publication date	article
+issueNumber	issue	article
+pageNo	page(s)	article
+magazineID		article
+magazineName	part of	article
+issueCoverURL		article
