@@ -12,6 +12,7 @@
 {"@value":"label_it","type":"literal", "@language":"it"},
 {"@value":"label_en","type":"literal", "@language":"en"}
 ]
+"rdf:value”:[{"@value":"value","type":"literal"}]
 
 ## Update
 "crm:P2_has_type" --> "type" && "E55Type.tsv" && E55Type_id

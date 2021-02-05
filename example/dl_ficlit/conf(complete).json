@@ -57,10 +57,13 @@
           {"subject_column": "op:split_values-->location", "object_table":"E53Place.tsv", "object_column":"op:clean_name-->E53Place_id"}
         ],
         "crm:P104_is_subject_to": [
-          {"subject_column": "op:split_values-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_id"}
+          {"subject_column": "op:split_values-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_ids"}
         ],
         "crm:P43_has_dimension": [
           {"subject_column": "op:split_values-->dimension", "object_table":"E54Dimension.tsv", "object_column":"op:clean_name-->E54Dimension_id"}
+        ],
+        "crm:P2_has_type": [
+          {"subject_column": "op:split_values-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}
         ],
         "crm:P46_is_composed_of": [
           {"subject_column": "op:split_values-->item", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}
@@ -81,10 +84,12 @@
           {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
         ],
         "bf:preferredCitation":[{"@value":"op:clean_name-->cite_as","type":"literal"}],
-        "crm:P72_has_language":[{"@id":"op:clean_name-->language","type":"uri"}]
+        "crm:P72_has_language":[{"@id":"op:clean_name-->language","type":"uri"}],
+        "dcterms:bibliographicCitation":[{"@value":"op:clean_name-->biblCitation","type":"literal"}]
       },
       "update": {
-        "crm:P94i_was_created_by":[{"subject_column": "op:clean_name-->creation_event", "object_table":"F28ExpressionCreation.tsv", "object_column":"op:clean_name-->F28ExpressionCreation_id"}],
+        "crm:P2_has_type":[{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
+        "crm:P94i_was_created_by":[{"subject_column": "op:clean_name-->creation_event", "object_table":"E65Creation.tsv", "object_column":"op:clean_name-->E65Creation_id"}],
         "crm:P102_has_title":[{"subject_column": "op:clean_name-->title", "object_table":"E35Title.tsv", "object_column":"op:clean_name-->E35Title_id"}],
         "crm:P104_is_subject_to":[{"subject_column": "op:clean_name-->right", "object_table":"E30Right.tsv", "object_column":"op:clean_name-->E30Right_id"}],
         "crm:P128i_is_carried_by":[{"subject_column": "op:clean_name-->physical_carrier", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
@@ -148,7 +153,11 @@
           "rdfs:label":[
             {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
             {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
-          ]
+          ],
+          "rdf:value":[{"@value":"op:clean_name-->value","type":"literal"}]
+        },
+        "update": {
+          "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}]
         }
     },
     {
@@ -184,6 +193,9 @@
             {"@value":"op:clean_name-->label_it","type":"literal", "@language":"it"},
             {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
           ]
+        },
+        "update":{
+          "crm:P2_has_type": [{"subject_column": "op:clean_name-->type", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}]
         }
     },
     {
@@ -251,7 +263,8 @@
             {"@value":"op:clean_name-->label_en","type":"literal", "@language":"en"}
           ],
           "skos:closeMatch":[{"@id":"op:clean_name-->close_match","type":"uri"}],
-          "skos:relatedMatch":[{"@id":"op:clean_name-->related_match","type":"uri"}]
+          "skos:relatedMatch":[{"@id":"op:clean_name-->related_match","type":"uri"}],
+          "crm:P90_value":[{"@id":"op:clean_name-->type","type":"xsd:decimal"}]
         },
         "update":{
           "crm:P91_has_unit": [{"subject_column": "op:clean_name-->unit", "object_table":"E58MeasurementUnit.tsv", "object_column":"op:clean_name-->E58MeasurementUnit_id"}]
@@ -309,6 +322,7 @@
         "update": {
           "frbroo:R17_created": [{"subject_column": "op:clean_name-->expression", "object_table":"F2Expression.tsv", "object_column":"op:clean_name-->F2Expression_id"}],
           "frbroo:R18_created": [{"subject_column": "op:clean_name-->object", "object_table":"E19PhysicalObject.tsv", "object_column":"op:clean_name-->E19PhysicalObject_id"}],
+          "crm:P32_used_general_technique": [{"subject_column": "op:clean_name-->production_technique", "object_table":"E55Type.tsv", "object_column":"op:clean_name-->E55Type_id"}],
           "crm:P14_carried_out_by": [{"subject_column": "op:clean_name-->agent", "object_table":"E21Person.tsv", "object_column":"op:clean_name-->E21Person_id"}],
           "crm:P4_has_time-span": [{"subject_column": "op:clean_name-->time_span", "object_table":"E52TimeSpan.tsv", "object_column":"op:clean_name-->E52TimeSpan_id"}]
         }

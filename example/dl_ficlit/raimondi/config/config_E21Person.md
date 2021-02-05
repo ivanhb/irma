@@ -17,18 +17,8 @@
 "owl:sameAs":[{"@id":"wikidata","type":"uri"}]
 
 ## Update
-"pro:holdsRoleInTime" --> "rit_rdq1" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq2" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq3" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq4" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq5" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq6" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq7" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq8" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq9" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq10" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq11" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq12" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq13" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq14" && "RoleInTime.tsv" && RoleInTime_id
-"pro:holdsRoleInTime" --> "rit_rdq15" && "RoleInTime.tsv" && RoleInTime_id
+<!---
+properties with multiple values, separated by ' ;; '
+-->
+"pro:holdsRoleInTime" --> "rit_rdq" && "RoleInTime.tsv" && RoleInTime_id
+"crm:P67i_is_referred_to_by" --> "referred_to_by" && "F2Expression.tsv" && F2Expression_id
